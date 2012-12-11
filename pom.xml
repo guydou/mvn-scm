@@ -11,7 +11,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
+  <scm>
+	  <connection>scm:git|git://github.com/guydou/mvn-scm.git</connection>
+	  <!--developerConnection>scm:git|git@github.com:guydou/mvn-scm.git</developerConnection-->
+   </scm>
   <modules>
        <module>projecta</module>
        <module>projectb</module>
